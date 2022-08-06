@@ -1,5 +1,5 @@
 {
-    "name": "zaratedev/laravel-discounts",
+    "name": "rezkonline/laravel-discounts",
     "description": "Apply discounts to your Eloquent models in Laravel",
     "type": "package",
     "license": "MIT",
@@ -7,10 +7,14 @@
         {
             "name": "'Jonathan Zarate'",
             "email": "zaratedev@gmail.com"
+        },
+        {
+            "name": "Rezkonline",
+            "email": "support@rezkonline.com"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.4|^8.0",
         "illuminate/database": "~5.8.0|^6.0|^7.0|^8.0",
         "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0"
     },
