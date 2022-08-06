@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaratedev\Discounts;
+namespace Rezkonline\Discounts;
 
 use Illuminate\Support\ServiceProvider;
 

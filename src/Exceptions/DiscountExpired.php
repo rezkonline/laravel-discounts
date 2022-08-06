@@ -1,8 +1,8 @@
 <?php
 
-namespace Zaratedev\Discounts\Exceptions;
+namespace Rezkonline\Discounts\Exceptions;
 
-use Zaratedev\Discounts\Models\Discount;
+use Rezkonline\Discounts\Models\Discount;
 
 class DiscountExpired extends \Exception
 {

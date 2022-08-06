@@ -1,9 +1,9 @@
 <?php
 
-namespace Zaratedev\Discounts\Tests\Models;
+namespace Rezkonline\Discounts\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Zaratedev\Discounts\Traits\Discountable;
+use Rezkonline\Discounts\Traits\Discountable;
 
 class Item extends Model
 {

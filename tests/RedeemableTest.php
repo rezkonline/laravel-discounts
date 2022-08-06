@@ -1,13 +1,13 @@
 <?php
 
-namespace Zaratedev\Discounts\Tests;
+namespace Rezkonline\Discounts\Tests;
 
 use Discounts;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Event;
-use Zaratedev\Discounts\Exceptions\DiscountExpired;
-use Zaratedev\Discounts\Models\Discount;
-use Zaratedev\Discounts\Tests\Models\Item;
+use Rezkonline\Discounts\Exceptions\DiscountExpired;
+use Rezkonline\Discounts\Models\Discount;
+use Rezkonline\Discounts\Tests\Models\Item;
 
 class RedeemableTest extends TestCase
 {

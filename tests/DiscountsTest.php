@@ -1,9 +1,9 @@
 <?php
 
-namespace Zaratedev\Discounts\Tests;
+namespace Rezkonline\Discounts\Tests;
 
 use Discounts;
-use Zaratedev\Discounts\Tests\Models\Item;
+use Rezkonline\Discounts\Tests\Models\Item;
 
 class DiscountsTest extends TestCase
 {

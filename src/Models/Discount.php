@@ -1,10 +1,10 @@
 <?php
 
-namespace Zaratedev\Discounts\Models;
+namespace Rezkonline\Discounts\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Zaratedev\Discounts\Traits\Redeemable;
+use Rezkonline\Discounts\Traits\Redeemable;
 
 /**
  * @property int $id

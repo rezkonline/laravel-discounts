@@ -11,7 +11,7 @@
          processIsolation="false"
          beStrictAboutTestsThatDoNotTestAnything="false"
          stopOnFailure="false">
-    <testsuite name="Zaratedev Test Suite">
+    <testsuite name="Rezkonline Test Suite">
         <directory>tests</directory>
     </testsuite>
     <filter>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaratedev\Discounts\Facades;
+namespace Rezkonline\Discounts\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

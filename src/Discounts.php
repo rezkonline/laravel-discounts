@@ -1,9 +1,9 @@
 <?php
 
-namespace Zaratedev\Discounts;
+namespace Rezkonline\Discounts;
 
 use Illuminate\Database\Eloquent\Model;
-use Zaratedev\Discounts\Models\Discount;
+use Rezkonline\Discounts\Models\Discount;
 
 class Discounts
 {

@@ -14,7 +14,7 @@ Any model
 
 <?php
 
-use Zaratedev\Discounts\Traits\Discountable;
+use Rezkonline\Discounts\Traits\Discountable;
 
 class Item extends Model
 {
@@ -45,7 +45,7 @@ The package will automatically register itself.
 You can publish the migrations
 
 ```bash
-php artisan vendor:publish --provider="Zaratedev\Discounts\DiscountsServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Rezkonline\Discounts\DiscountsServiceProvider" --tag="migrations"
 ```
 
 Execute the command
@@ -57,9 +57,9 @@ php artisan migrate
 
 The basic concept of this package is to create discounts, associated with a specific model. For example, you have a subscription application where the first three months must apply a discount to the subscription price.
 
-Add the `Zaratedev\Discounts\Traits\Discountable` trait to your eloquent model that you want to use with discounts.
+Add the `Rezkonline\Discounts\Traits\Discountable` trait to your eloquent model that you want to use with discounts.
 
-El trait `Zaratedev\Discounts\Traits\Discountable` can redeem discounts in the database.
+El trait `Rezkonline\Discounts\Traits\Discountable` can redeem discounts in the database.
 
 ## Creating discounts
 
@@ -108,7 +108,7 @@ After redeeming a discount, this package initializes two observable events `rede
 
 ### Discount expired
 
-If a discount tries to redeem an expired discount, the package will throw the following exception: `Zaratedev\Discounts\Exceptions\DiscountExpired`.
+If a discount tries to redeem an expired discount, the package will throw the following exception: `Rezkonline\Discounts\Exceptions\DiscountExpired`.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

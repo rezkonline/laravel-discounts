@@ -24,21 +24,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Zaratedev\\Discounts\\": "src/"
+            "Rezkonline\\Discounts\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zaratedev\\Discounts\\Tests\\": "tests"
+            "Rezkonline\\Discounts\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Zaratedev\\Discounts\\DiscountsServiceProvider"
+                "Rezkonline\\Discounts\\DiscountsServiceProvider"
             ],
             "aliases": {
-                "Discounts": "Zaratedev\\Discounts\\Facades\\Discounts"
+                "Discounts": "Rezkonline\\Discounts\\Facades\\Discounts"
             }
         }
     }

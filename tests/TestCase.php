@@ -1,10 +1,10 @@
 <?php
 
-namespace Zaratedev\Discounts\Tests;
+namespace Rezkonline\Discounts\Tests;
 
 use Illuminate\Database\Schema\Blueprint;
-use Zaratedev\Discounts\DiscountsServiceProvider;
-use Zaratedev\Discounts\Facades\Discounts;
+use Rezkonline\Discounts\DiscountsServiceProvider;
+use Rezkonline\Discounts\Facades\Discounts;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

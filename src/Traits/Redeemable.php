@@ -1,9 +1,9 @@
 <?php
 
-namespace Zaratedev\Discounts\Traits;
+namespace Rezkonline\Discounts\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
-use Zaratedev\Discounts\Exceptions\DiscountExpired;
+use Rezkonline\Discounts\Exceptions\DiscountExpired;
 
 /**
  * @property \Illuminate\Support\Carbon $redeemed_at

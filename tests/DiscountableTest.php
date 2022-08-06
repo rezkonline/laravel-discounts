@@ -1,10 +1,10 @@
 <?php
 
-namespace Zaratedev\Discounts\Tests;
+namespace Rezkonline\Discounts\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Zaratedev\Discounts\Models\Discount;
-use Zaratedev\Discounts\Tests\Models\Item;
+use Rezkonline\Discounts\Models\Discount;
+use Rezkonline\Discounts\Tests\Models\Item;
 
 class DiscountableTest extends TestCase
 {

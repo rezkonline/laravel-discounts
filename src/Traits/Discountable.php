@@ -1,10 +1,10 @@
 <?php
 
-namespace Zaratedev\Discounts\Traits;
+namespace Rezkonline\Discounts\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Zaratedev\Discounts\Facades\Discounts;
-use Zaratedev\Discounts\Models\Discount;
+use Rezkonline\Discounts\Facades\Discounts;
+use Rezkonline\Discounts\Models\Discount;
 
 trait Discountable
 {
